@@ -1,5 +1,7 @@
 @import "./setting.css";
-@import "./swiper.css";
+@import "./swiperslide.css";
 @import "./header.css";
 @import "./login.css";
-@import "./story.css";
+@import "./storydg.css";
+@import "./autoslider.css";
+
