@@ -181,7 +181,7 @@ header {
                 position: absolute;
                 left: 0;
                 top: 0;
-                display: flex;
+                display: none;
                 justify-content: space-between;
                 overflow: auto;
                 direction: ltr;
