@@ -151,7 +151,7 @@ header {
           background-color: white;
           position: absolute;
           top: 100%;
-          display: block;
+          display: none;
 
           .megamenu__list{
             width: 200px;
