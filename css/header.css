@@ -202,11 +202,6 @@ header {
                 color: #3f4064;
               }
 
-              p{
-                font-size: 14px;
-                font-weight: 700;
-                color: #0c0c0c;
-              }
               .item__content__col {
                 width: 23%;
                 height: 100%;
@@ -215,11 +210,33 @@ header {
                 gap: 16px;
                 padding: 16px;
                 direction: rtl;
+                
+
                 a {
                   text-decoration: none;
                   color: #81858b;
                   font-size: 12px;
                   font-weight: 400;
+                }
+                p {
+                  font-size: 14px;
+                  font-weight: 700;
+                  color: #0c0c0c;
+                  display: flex;
+                  gap: 4px;
+
+                  svg {
+                    width: 16px;
+                    height: 16px;
+                    fill: #0c0c0c;
+                  }
+
+                  span {
+                    display: inline-block;
+                    width: 2px;
+                    height: 20px;
+                    background-color: #ef4444;
+                  }
                 }
               }
             }
