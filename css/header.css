@@ -217,6 +217,9 @@ header {
                   color: #81858b;
                   font-size: 12px;
                   font-weight: 400;
+                  &:hover{
+                    color: #ef4444;
+                  }
                 }
                 p {
                   font-size: 14px;
@@ -224,11 +227,17 @@ header {
                   color: #0c0c0c;
                   display: flex;
                   gap: 4px;
+                  &:hover{
+                    color: #ef4444;
+                  }
 
                   svg {
                     width: 16px;
                     height: 16px;
                     fill: #0c0c0c;
+                    &:hover{
+                      fill: #ef4444;
+                    }
                   }
 
                   span {
