@@ -210,24 +210,23 @@ header {
                 gap: 16px;
                 padding: 16px;
                 direction: rtl;
-                
 
-                a {
-                  text-decoration: none;
-                  color: #81858b;
-                  font-size: 12px;
-                  font-weight: 400;
-                  &:hover{
-                    color: #ef4444;
+                  svg {
+                    width: 16px;
+                    height: 16px;
+                    fill: #0c0c0c;
+                    &:hover {
+                      fill: #ef4444;
+                    }
                   }
-                }
+
                 p {
                   font-size: 14px;
                   font-weight: 700;
                   color: #0c0c0c;
                   display: flex;
                   gap: 4px;
-                  &:hover{
+                  &:hover {
                     color: #ef4444;
                   }
 
@@ -235,7 +234,7 @@ header {
                     width: 16px;
                     height: 16px;
                     fill: #0c0c0c;
-                    &:hover{
+                    &:hover {
                       fill: #ef4444;
                     }
                   }
@@ -245,6 +244,16 @@ header {
                     width: 2px;
                     height: 20px;
                     background-color: #ef4444;
+                  }
+                }
+
+                a {
+                  text-decoration: none;
+                  color: #81858b;
+                  font-size: 12px;
+                  font-weight: 400;
+                  &:hover {
+                    color: #ef4444;
                   }
                 }
               }
