@@ -42,10 +42,10 @@
       &:nth-of-type(2) {
         border-radius: 0 8px 8px 0;
       }
-      &:nth-of-type(14) {
+      &:nth-last-of-type(1) {
         border-radius: 8px 0 0 8px;
       }
-      .product__col {
+      .prod__col {
         width: 100%;
         height: 100%;
         padding: 4px;
@@ -54,15 +54,92 @@
         align-items: center;
         gap: 6px;
 
-        .product__img {
+        .prod__img {
           width: 132px;
           height: 132px;
           object-fit: contain;
         }
-
-        .product__text {
+        .prod__text {
           width: 100%;
           height: 40px;
+
+          p {
+            color: #62666d;
+            font-size: 12px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            -webkit-line-clamp: 2;
+            text-align: right;
+            padding: 0 8px;
+          }
+        }
+
+        .prod__data {
+          width: 100%;
+          padding: 0 8px;
+          display: flex;
+          justify-content: space-between;
+
+          .discount {
+            height: fit-content;
+            display: inline-block;
+            background-color: #ef4444;
+            padding: 0px 8px;
+            border-radius: 30px;
+            color: white;
+            font-size: 12px;
+            font-family: homaa;
+          }
+          .price {
+            display: flex;
+            align-items: center;
+
+            .current__price {
+              font-size: 12px;
+              font-family: homaa;
+              color: #353535;
+            }
+            svg {
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+        .prev__price {
+          display: block;
+          text-align: left;
+          width: 100%;
+          padding-left: 28px;
+          color: #c0c2c5;
+          font-size: 12px;
+          font-family: homaa;
+          text-decoration: line-through;
+        }
+      }
+
+      .more {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .circle__line {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          border: 3px solid rgb(25, 191, 211);
+          outline: 2px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          svg {
+            width: 32px;
+            height: 32px;
+            fill: rgb(25, 191, 211);
+          }
         }
       }
     }

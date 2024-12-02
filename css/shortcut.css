@@ -1,0 +1,21 @@
+.shortcut{
+    width: 100%;
+    height: 203px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .shortcut__img{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 320px;
+            height: 240px;
+            border-radius: 16px;
+        }
+    }
+}
