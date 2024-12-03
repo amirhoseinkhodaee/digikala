@@ -1,0 +1,20 @@
+.advertismen2 {
+  width: 100%;
+  height: 265px;
+  padding-top: 40px;
+
+  .adv__item {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 680px;
+      height: 265px;
+      border-radius: 16px;
+    }
+  }
+}
