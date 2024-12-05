@@ -1,0 +1,17 @@
+.big__add {
+  width: 100%;
+  height: 167px;
+  margin-top: 20px;
+
+  .big__add__pic {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 16px;
+    }
+  }
+}
