@@ -5,7 +5,6 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
-  position: relative;
   z-index: 9999;
 
   .header__top {
@@ -188,7 +187,8 @@ header {
                 left: 0;
                 top: 0;
                 display: none;
-                justify-content: space-between;flex-direction: row-reverse;
+                justify-content: space-between;
+                flex-direction: row-reverse;
                 overflow: auto;
                 direction: ltr;
               }

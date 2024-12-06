@@ -1,0 +1,192 @@
+footer {
+  width: 100%;
+  height: 1157px;
+  background-color: aqua;
+  border-top: 1px solid #2b2b2b;
+  margin-top: 30px;
+
+  .footer__center {
+    width: 95%;
+    height: 100%;
+    background-color: bisque;
+    margin: 0 auto;
+    padding-top: 32px;
+
+    .footer__top {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        width: 195px;
+        height: 30px;
+      }
+
+      a {
+        width: fit-content;
+        height: 40px;
+        padding: 8px 16px;
+        border: 1px solid #a1a3a8;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: none;
+        color: #a1a3a8;
+        display: flex;
+        align-items: center;
+
+        svg {
+          width: 18px;
+          height: 18px;
+          fill: #a1a3a8;
+        }
+      }
+    }
+
+    .read__adress {
+      width: 100%;
+      height: 27px;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+
+      p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #3f4064;
+
+        .vr__line__footer {
+          display: inline-block;
+          width: 1px;
+          height: 10px;
+          background-color: #a1a3a8;
+          margin: 0 20px;
+        }
+      }
+    }
+
+    .footer__service {
+      width: 100%;
+      height: 105px;
+      margin-top: 30px;
+
+      .serv__item {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .serv__col {
+          width: 320px;
+          height: 105px;
+
+          .serv__image {
+            display: flex;
+            justify-content: center;
+
+            img {
+              width: 56px;
+              height: 56px;
+            }
+          }
+          .serv__text {
+            display: flex;
+            justify-content: center;
+
+            p {
+              font-size: 11px;
+              font-weight: 400;
+              line-height: 23px;
+              color: rgb(63, 64, 100);
+            }
+          }
+        }
+      }
+    }
+    .digikala__guide {
+      width: 100%;
+      height: 270px;
+      margin-top: 10px;
+
+      .guide__center {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .col__item {
+          width: 425px;
+          height: 270px;
+          display: flex;
+
+          .guide__col {
+            display: flex;
+            flex-flow: column;
+            gap: 10px;
+
+            p {
+              font-size: 16px;
+              font-weight: 700;
+              color: rgb(63, 64, 100);
+            }
+
+            a {
+              font-size: 14px;
+              font-weight: 400;
+              color: rgb(129, 133, 139);
+              text-decoration: none;
+            }
+            .socialmedia__col {
+                display: flex;
+                align-items: center;
+              .social__media {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+
+                svg {
+                  width: 30px;
+                  height: 30px;
+                  fill: rgb(161, 163, 168);
+                }
+              }
+            }
+
+            .registration{
+                width: 332px;
+                height: 48px;
+
+                .searching{
+                    width: 260px;
+                    height: 48px;
+                    background-color: rgb(240, 240, 241);
+                    border-radius: 8px;
+                    border: unset;
+                    padding: 0 16px;
+                    &:focus{
+                        outline: unset;
+                    }
+                }
+
+                .done{
+                    width: 53px;
+                    height: 48px;
+                    background-color: #a1a3a8aa;
+                    border-radius: 8px;
+                    padding: 0 16px;
+                    text-align: center;
+                    border: unset;
+                    color: white;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}
