@@ -2,5 +2,5 @@ const loadingScreen = document.querySelector(".loading-container");
 
 setTimeout(() => {
   loadingScreen.style.display = "none";
-  console.log("Loading screen hidden after 1.5 seconds");
-}, 1500);
+  console.log("Loading screen hidden after 2 seconds");
+}, 2000);
