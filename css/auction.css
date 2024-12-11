@@ -50,8 +50,8 @@
         display: flex;
         align-items: center;
         flex-flow: column;
-        border-bottom: 1px solid #2b2b2b;
-        border-left: 1px solid #2b2b2b;
+        border-bottom: 1px solid rgb(224, 224, 226);
+        border-left: 1px solid rgb(224, 224, 226);
         margin: 0;
         &:nth-of-type(6) {
           border-left: unset;
