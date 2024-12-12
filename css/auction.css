@@ -9,7 +9,7 @@
     border: 1px solid rgb(224, 224, 226);
     border-radius: 16px;
     margin: 0 auto;
-    padding: 16px 12px;
+    padding: 16px 0px;
 
     .auction__title {
       width: 100%;

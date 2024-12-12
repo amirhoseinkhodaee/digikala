@@ -127,12 +127,16 @@ footer {
             gap: 10px;
 
             p {
+              width: 446px;
+              height: 34px;
               font-size: 16px;
               font-weight: 700;
               color: rgb(63, 64, 100);
             }
 
             a {
+              width: 446px;
+              height: 30px;
               font-size: 14px;
               font-weight: 400;
               color: rgb(129, 133, 139);
@@ -141,15 +145,17 @@ footer {
             .socialmedia__col {
               display: flex;
               align-items: center;
+              gap: 40px;
               .social__media {
                 width: 40px;
                 height: 40px;
                 display: flex;
                 align-items: center;
+             
 
                 svg {
-                  width: 30px;
-                  height: 30px;
+                  width: 40px;
+                  height: 40px;
                   fill: rgb(161, 163, 168);
                 }
               }
@@ -174,7 +180,7 @@ footer {
               .done {
                 width: 53px;
                 height: 48px;
-                background-color: #a1a3a8aa;
+                background-color: rgb(224, 224, 226);
                 border-radius: 8px;
                 padding: 0 16px;
                 text-align: center;
@@ -197,6 +203,7 @@ footer {
         background-color: rgb(60, 75, 109);
         border-radius: 8px;
         display: flex;
+        margin-top: 20px;
 
         .app__right {
           width: 50%;

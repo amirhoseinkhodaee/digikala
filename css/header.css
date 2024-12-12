@@ -138,6 +138,7 @@ header {
           align-items: center;
           font-size: 14px;
           font-weight: bold;
+          text-wrap: nowrap;
           gap: 4px;
           svg {
             width: 20px;
@@ -202,6 +203,7 @@ header {
               span {
                 font-size: 12px;
                 color: #3f4064;
+                text-wrap: nowrap;
               }
 
               .item__content__col {
@@ -298,6 +300,7 @@ header {
           height: 100%;
           line-height: 40px;
           text-decoration: none;
+          text-wrap: nowrap;
           color: #a1a3a8;
           font-size: 12px;
 
@@ -343,6 +346,7 @@ header {
           align-items: center;
           gap: 4px;
           font-size: 12px;
+          text-wrap: nowrap;
           color: #f57f17;
           svg {
             width: 20px;
